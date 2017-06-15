@@ -1,7 +1,7 @@
 Heavy-Light Platforms
 ===
 
-*** Vasileios Glykantzis, Andres Gomez, Rehan Ahmed, Lothar Thiele ***
+***Vasileios Glykantzis, Andres Gomez, Rehan Ahmed, Lothar Thiele***
 
 ### Software
 
