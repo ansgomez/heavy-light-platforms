@@ -1,0 +1,32 @@
+The 'CM0 Blinky' project is a simple program for the LPC4350
+microcontroller using Keil 'MCB4300' Evaluation Board, compliant 
+to Cortex Microcontroller Software Interface Standard (CMSIS v2.0).
+
+This example demonstrates how to configure dual core application project
+in order to use Cortex-M0 (CM0) core together with the Cortex-M4 (CM4) core.
+
+Example functionality:
+ - Clock Settings:
+   - CPU = 180.00 MHz (CM0 and CM4 are running with the same clock frequency)
+
+ - Repetitive Interrupt Timer (RIT) is used in interrupt mode
+ - LED P9_2 is toggled with the speed depending on RIT interrupt period
+
+ - LED PD_14 is toggled using Cortex-M4 core event interrupt
+ 
+
+The CM0 Blinky program is available for multiple targets:
+
+  LPC4350 M0 RAM:     runs from Internal RAM located on chip
+                      (may be used for target debugging)
+
+  LPC4350 M0 RAM ULp: runs from Internal RAM located on chip
+                      (may be used for target debugging with
+                       the Ulink Pro debugger)
+
+Note:
+  CM0 application image "CM0_Image.c" is copied into CM4 project folder and
+  loaded into LPC4350 internal RAM using CM4 core.
+  
+  Debug of the CM0 application is possible after CM0 image is already
+  loaded into LPC4350 RAM.

@@ -1,0 +1,423 @@
+Dependencies for Project 'CM4 Blinky', Target 'LPC4357 Flash': (DO NOT MODIFY !)
+F (..\..\Core\Device\NXP\LPC43xx\Source\Templates\ARM\startup_LPC43xx.s)(0x526FD8F4)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx--pd "NO_CRP SETA 1" --list .\flash\startup_lpc43xx.lst --xref -o .\flash\startup_lpc43xx.o --depend .\flash\startup_lpc43xx.d)
+F (..\..\Core\Device\NXP\LPC43xx\Source\Templates\system_LPC43xx.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\system_lpc43xx.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\system_lpc43xx.crf --depend .\flash\system_lpc43xx.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\fpu_enable.h)(0x526FD8F4)
+F (.\CM0_Image.c)(0x52AF4721)()
+F (..\util\lcd.c)(0x52AF409C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lcd.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lcd.crf --depend .\flash\lcd.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_rom8x16.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim_font.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_winfreesystem14x16.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_x6x13.h)(0x528E5970)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+F (..\util\xprintf.c)(0x52AAD58A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\xprintf.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\xprintf.crf --depend .\flash\xprintf.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7FD94)
+F (..\platform\lpc_colors.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_colors.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_colors.crf --depend .\flash\lpc_colors.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+F (..\platform\lpc_fonts.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_fonts.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_fonts.crf --depend .\flash\lpc_fonts.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_helvr10.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_x5x7.h)(0x528F4446)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_x6x13.h)(0x528E5970)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_winfreesystem14x16.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_rom8x8.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_rom8x16.h)(0x5289F0F0)
+F (..\platform\lpc_helvr10.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_helvr10.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_helvr10.crf --depend .\flash\lpc_helvr10.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_helvr10.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+F (..\platform\lpc_swim.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_swim.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_swim.crf --depend .\flash\lpc_swim.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_helvr10.h)(0x5289F0F0)
+F (..\platform\lpc_swim_font.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_swim_font.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_swim_font.crf --depend .\flash\lpc_swim_font.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim_font.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+F (..\platform\lpc_swim_image.c)(0x5289F0F0)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_swim_image.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_swim_image.crf --depend .\flash\lpc_swim_image.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim_image.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+F (..\platform\lpc_x6x13.c)(0x528E5970)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc_x6x13.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc_x6x13.crf --depend .\flash\lpc_x6x13.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_x6x13.h)(0x528E5970)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+F (..\platform\IS42S16400D.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\is42s16400d.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\is42s16400d.crf --depend .\flash\is42s16400d.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_timer.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+F (..\platform\LED_LPC43xx.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\led_lpc43xx.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\led_lpc43xx.crf --depend .\flash\led_lpc43xx.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\LED.h)(0x52AAD588)
+F (..\..\Drivers\source\lpc43xx_cgu.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc43xx_cgu.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc43xx_cgu.crf --depend .\flash\lpc43xx_cgu.d)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+F (..\..\Drivers\source\lpc43xx_gpio.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc43xx_gpio.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc43xx_gpio.crf --depend .\flash\lpc43xx_gpio.d)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg_default.h)(0x526FD8F4)
+F (..\..\Drivers\source\lpc43xx_scu.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc43xx_scu.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc43xx_scu.crf --depend .\flash\lpc43xx_scu.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+F (..\..\Drivers\source\lpc43xx_timer.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc43xx_timer.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc43xx_timer.crf --depend .\flash\lpc43xx_timer.d)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_timer.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg_default.h)(0x526FD8F4)
+F (C:\nxp\Drivers\source\lpc43xx_lcd.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\lpc43xx_lcd.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\lpc43xx_lcd.crf --depend .\flash\lpc43xx_lcd.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\lpc43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg_default.h)(0x526FD8F4)
+F (..\platform\master_interrupt_callback.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\master_interrupt_callback.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\master_interrupt_callback.crf --depend .\flash\master_interrupt_callback.d)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_int.h)(0x52988586)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_interrupt_callback.h)(0x52AAD588)
+F (..\..\Drivers\source\ipc_int.c)(0x52A5A17A)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\ipc_int.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\ipc_int.crf --depend .\flash\ipc_int.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_int.h)(0x52988586)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_interrupt_callback.h)(0x52AAD588)
+F (..\..\Drivers\source\ipc_buffer.c)(0x526FD8F4)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\ipc_buffer.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\ipc_buffer.crf --depend .\flash\ipc_buffer.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+F (..\..\Drivers\source\ipc_mbx.c)(0x529881B6)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\ipc_mbx.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\ipc_mbx.crf --depend .\flash\ipc_mbx.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+F (..\util\IPCFunctions.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\ipcfunctions.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\ipcfunctions.crf --depend .\flash\ipcfunctions.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\IPCFunctions.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\LED.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+F (..\platform\master_mbx_callbacks.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\master_mbx_callbacks.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\master_mbx_callbacks.crf --depend .\flash\master_mbx_callbacks.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+F (.\m4_mbx_functions.c)(0x52AF3EBC)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\m4_mbx_functions.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\m4_mbx_functions.crf --depend .\flash\m4_mbx_functions.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\CM4\m4_mbx_functions.h)(0x52AB3C6C)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\IPCFunctions.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_int.h)(0x52988586)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\runtime.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+F (..\runtime\profiling.c)(0x52AAD588)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\profiling.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\profiling.crf --depend .\flash\profiling.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\profiling.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+F (..\runtime\runtime.c)(0x52AF4140)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\runtime.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\runtime.crf --depend .\flash\runtime.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\runtime.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\CM4\m4_mbx_functions.h)(0x52AB3C6C)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\IPCFunctions.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_int.h)(0x52988586)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\profiling.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+F (..\runtime\statistics.c)(0x52AF012E)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\statistics.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\statistics.crf --depend .\flash\statistics.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\profiling.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+F (..\runtime\tasks.c)(0x52AEFF94)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\tasks.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\tasks.crf --depend .\flash\tasks.d)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\runtime.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+F (.\main_M4.c)(0x52AF045C)(-c --cpu Cortex-M4.fp -D__MICROLIB -g -O0 --apcs=interwork --asm --interleave --asm_dir ".\\Flash\\" -I..\..\Core\Device\NXP\LPC43xx\Include -I..\..\Drivers\include -I..\platform -I.\ -I..\cm0 -I..\runtime -I..\util -D CORE_ID=1 -D PROFILING_TIMER=1-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC43xx-DCORE_M4 -DIPC_MASTER -DIPC_CONFLICT -DMBX_IPC -DINT_IPC -o .\flash\main_m4.o --list_dir ".\\Flash\\" --list --omf_browse .\flash\main_m4.crf --depend .\flash\main_m4.d)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\LPC43xx.h)(0x526FD8F4)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4.h)(0x51C7FB9A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7FD94)
+I (C:\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x51C7FB9A)
+I (C:\Keil\ARM\CMSIS\Include\core_cm4_simd.h)(0x51C7FB9A)
+I (D:\unfuddle\lpc4357\dualcore\Core\Device\NXP\LPC43xx\Include\system_LPC43xx.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\LED.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_cgu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc_types.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_gpio.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\lcd.h)(0x52AED2D6)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_lcd.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_scu.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_libcfg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\lpc43xx_i2c.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_swim.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_types.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_fonts.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\lpc_colors.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\statistics.h)(0x52AED250)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\tasks.h)(0x52AED1CE)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\CM4\m4_mbx_functions.h)(0x52AB3C6C)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\IPCFunctions.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_int.h)(0x52988586)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\platform_init.h)(0x52976F56)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\project_init.h)(0x5289F0F0)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_interrupt_callback.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\Drivers\include\ipc_mbx.h)(0x5298CF48)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_ipc_msg.h)(0x526FD8F4)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\master_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\platform\slave_mbx_callbacks.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\runtime.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\runtime\profiling.h)(0x52AAD588)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\util\xprintf.h)(0x52AAD58A)
+I (D:\unfuddle\lpc4357\dualcore\win_demo\CM4\CM0_Image.c)(0x52AED49E)
+F (.\Abstract.txt)(0x526FD8F4)()

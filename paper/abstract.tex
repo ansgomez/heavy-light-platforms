@@ -1,0 +1,19 @@
+% As a general rule, do not put math, special symbols or citations
+% in the abstract
+\begin{abstract}
+
+%{\small\textbf{Abstract---
+While researchers have been studying ways to minimize the energy consumed in embedded platforms for many years, the costs of implementing advanced energy minimization techniques (e.g. fine-grained DVFS) are now prohibitive in low-cost microcontroller platforms.
+%current design trends reduce energy by adding an energy-efficient co-processor and exploiting task-level parallelism at run time.
+%Such heterogeneous dual-core platforms have been commercially available for several years. 
+%Recent works have proposed a dual-core platform, consisting of one processor designed to work reliably under the worst-case conditions and another with reduced design margins. 
+%These \emph{Heavy-Light} platforms exhibit heterogeneous power consumption, leading to significant energy savings, while maintaining micro-architectural homogeneity, simplifying its use. In this work we study the energy-performance tradeoffs of such platforms.
+In this work, we study the energy-performance tradeoffs in the recently proposed Heavy-Light architecture, which consists of a power-hungry (Heavy) core and a low-power (Light) core. The former is designed with performance guarantees under worst-case PVT conditions, while the latter is not. 
+%In this work, the advantages of such a platform are studied, focusing on the performance/energy trade-offs. 
+We develop and formally prove the optimality of task allocation policies with respect to energy and makespan.
+%We propose different allocation policies which optimize the system's performance and energy consumption. 
+We show that for low levels of parallelism, there is a trade-off between minimizing makespan and energy consumption (i.e. minimizing one does not minimize the other). 
+Theoretical results were experimentally validated by emulating the heavy-light behavior in a commercially available platform. 
+The results show up to 50\% decrease in makespan and up to 22\% energy savings compared to a single-core platform, depending on the workload and platform characteristics. 
+%}}
+\end{abstract}

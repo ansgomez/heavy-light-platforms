@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>SimulationResults</title>
+    
+	<link href="css/base.css" rel="stylesheet" media="screen">
+    <script type="text/javascript" src="js/d3.v3.js"></script>    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jqueryui-widget.min.js"></script>
+    <script src="js/simple-gallery.min.js"></script>
+    
+</head>
+
+<body>
+	
+	<!--table for the logos-->
+    <table class="table1">
+    <tr>
+    <td style="float:left"><img src="img/unibo_logo.jpg" height="110"></td>
+    <td style="float:right"><img src="img/NXP_logo.jpg" height="90"></td>
+    </tr>
+    </table>
+    <p>Energy Efficient Task Allocation</p>
+
+    Algorithm: <div id="alg_name"> NAME </div>
+      	
+    <div id="table_container"></div>
+    
+    <script type="text/javascript" src="js/JobQueue.js" > </script>
+    <hr class="style-two">
+    <h1 style="color:#F7B60">Graphs</h1>
+    <script type="text/javascript" src="js/Procs.js" > </script>
+    <script type="text/javascript" src="js/Util.js" > </script>
+    <script type="text/javascript" src="js/Summary.js" > </script>
+    <script type="text/javascript" src="js/Func.js" > </script>
+
+    <!-- Note: the following div must be created by JS  <div id="images"></div>  -->
+    <div id="full"></div>
+    <p id="caption"></p>
+
+    <script>
+        $('#full').gallery({
+            source: "#images img",
+            easing: "linear",
+            waitTime: 50,
+            changeTime: 50,
+            animate: false,
+            showCaptions: true,
+            captionTarget: "#caption"
+        });
+        
+        $("#full").on({
+            mouseenter: function() {
+                $("#full").gallery("stopAnimation");
+            },
+            mouseleave: function() {
+                $("#full").gallery("stopAnimation");
+                //$("#full").gallery("resumeAnimation");
+            }
+        });
+        
+        $("#full").on({
+            galleryimageload: function() {
+                console.log("new image loaded");
+            },
+            galleryclick: function() {
+                console.log("gallery source image clicked");
+            },
+            galleryanimationstop: function() {
+                //console.log("gallery animation stopped");
+            },
+            galleryanimationresume: function() {
+                //console.log("gallery animation resumed");
+            }
+        });
+        
+    </script>
+</body>
+</html>

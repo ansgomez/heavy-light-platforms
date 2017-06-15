@@ -1,0 +1,188 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% 
+% 	Template for Producing ASP-DAC 2017 Proceedings
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% History
+% ??/??/?? Designed by Hiroaki Kunieda (ASP-DAC '97 Publication Chair)
+% 09/22/97 Modified and small bug fixed by Masaharu Imai 
+% 	   (ASP-DAC '98 Publication Chair)
+% 11/02/98 Modified by Tsuyoshi Isshiki
+% 	   (ASP-DAC 2000 TPS Secretary)
+% 7/24/00 Modified by Kiyoharu Hamaguchi
+% 	   (ASP-DAC 2001 Publication chair)
+% 6/18/02 Modified by Kazutoshi Kobayashi
+% 	   (ASP-DAC 2003 Publication Co-Chair)
+% 5/27/03 Modified by Kiyoharu Hamaguchi
+% 	   (ASP-DAC 2004 TPC secretary)
+% 6/10/03 Modified by Kazutoshi Kobayashi for Latex2e
+% 	   (ASP-DAC 2004 Publication Co-Chair)
+% 6/01/05 Modified by Nozomu Togawa
+% 	   (ASP-DAC 2006 Publication Chair)
+% 6/01/06 Modified by Hiroyuki Ochi
+% 	   (ASP-DAC 2007 Publication Chair)
+% 5/30/08 Modified by Nozomu Togawa
+% 	   (ASP-DAC 2009 Publication Co-Chair)
+% 4/30/10 Modified by Masashi Imai
+% 	   (ASP-DAC 2011 Publication Chair)
+% 3/20/12 Modified by Masashi Imai
+% 	   (ASP-DAC 2013 Publication Chair)
+% 5/01/14 Modified by Masashi Imai
+% 	   (ASP-DAC 2015 Publication Chair)
+% 4/24/16 Modified by Masashi Imai
+% 	   (ASP-DAC 2017 Publication Chair)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% If you have any problem, please contact ASP-DAC 2017 Publication
+% Co-Chairs by E-mail at ``aspdac17publication@hal.eit.hirosaki-u.ac.jp.''
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+\documentclass[twocolumn]{article}
+
+\usepackage{cite}
+\usepackage{graphicx}
+%\usepackage[cmex10]{amsmath}
+\usepackage{algorithmic}
+\usepackage{array}
+%\usepackage[caption=false,font=footnotesize]{subfig}
+%\usepackage{fixltx2e}
+%\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{enumerate}
+\usepackage{framed}
+\usepackage{amsmath,amssymb}
+\usepackage{mathtools}
+\usepackage{multirow}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{stfloats}
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+\newcommand\numberthis{\addtocounter{equation}{1}\tag{\theequation}}
+\newcommand*{\qed}{\hfill\(\blacksquare\)}
+\usepackage{caption}
+
+%% If you use dvips and ps2pdf, please use Postscript font 
+%% and uncomment the line below.
+%%\usepackage{times}
+\pagestyle{empty}
+%set paper size
+%for A4 paper
+\topmargin      29mm    %bottom margin 30mm
+\oddsidemargin  15mm    %left & right margin 15mm
+
+%for 8 1/2" x 11" paper paper, use the following definition
+%\topmargin     17mm    %bottom margin 24mm
+%\oddsidemargin 18mm    %left margin 18mm & right margin 17mm
+
+%text sizes
+\textwidth  180mm
+\textheight 238mm
+\columnsep  5.0mm
+\parindent  3.5mm
+
+%misc parameters
+\headsep 0mm  \headheight 0mm
+\footskip 18mm
+%\footheight 6mm
+
+%conversion to values for LaTeX
+\advance\topmargin-1in\advance\oddsidemargin-1in
+\evensidemargin\oddsidemargin
+
+\makeatletter
+%as Latex considers descenders in its calculation of interline spacing,
+%to get 12 point spacing for normalsize text, must set it to 10 points
+\def\@normalsize{\@setsize\normalsize{12pt}\xpt\@xpt
+\abovedisplayskip 10pt plus2pt minus5pt\belowdisplayskip \abovedisplayskip
+\abovedisplayshortskip \z@ plus3pt\belowdisplayshortskip 6pt plus3pt
+minus3pt\let\@listi\@listI}
+
+%interline spaceing and title font for section
+\def\section{\@startsection {section}{1}{\z@}{20pt plus 2pt minus 2pt}
+{8pt plus 2pt minus 2pt}{\centering\normalsize\sc
+\edef\@svsec{\thesection.\ }}}
+\def\thesection{\Roman{section}}
+
+%interline spacing and title font for subsection
+\def\subsection{\@startsection {subsection}{2}{\z@}{16pt plus 2pt minus 2pt}
+{6pt plus 2pt minus 2pt}{\normalsize\sl
+\edef\@svsec{\thesubsection.\ }}}
+\def\thesubsection{\Alph{subsection}}
+
+%figures/tables captions
+\long\def\@makecaption#1#2{
+\vskip10pt\begin{center} #1 #2 \end{center}\par\vskip 1pt}
+\def\fnum@figure{\raggedright{\footnotesize Fig. \thefigure }.%
+\footnotesize}
+\def\fnum@table{\footnotesize TABLE \thetable\\\footnotesize\sc}
+\def\thetable{\Roman{table}}
+
+\makeatother
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+%date not printed
+\date{}
+
+%make title
+\title{\Large\textbf{Performance and Energy Trade-Offs in Heavy-Light Platforms}}	% Modified by K. Kobayashi 18/06/02
+
+%for single author
+\author{Vasileios Glykantzis, Andres Gomez, Rehan Ahmed, Lothar Thiele  \\
+glykantv@student.ethz.ch, \{gomeza,rahmed,thiele\}@tik.ee.ethz.ch\\
+ETH Zurich\\
+}
+
+
+
+%for two authors
+%\author{
+%Authors hidden for blind review
+%\vspace*{3em}
+%}
+\maketitle
+\thispagestyle{empty}
+
+
+\input{abstract}
+
+\section{Introduction}\label{introduction}
+\input{introduction}
+
+\section{Related Works}\label{related} 
+\input{related_works3}
+
+\section{System and Task Model} \label{system_task_model}
+\input{system_model}
+
+\section{Theoretical Results} \label{theory}
+\input{theory}
+
+\section{Evaluation Methodology} \label{results}
+\input{results}
+
+\section{Conclusion} \label{conclusion}
+\input{conclusion}
+%\end{document}  % This is where a 'short' article might terminate
+
+%ACKNOWLEDGMENTS are optional
+%\section{Acknowledgments}
+%This section is optional; it is a location for you
+%to acknowledge grants, funding, editing assistance and
+%what have you.  In the present case, for example, the
+%authors would like to thank Gerald Murray of ACM for
+%his help in codifying this \textit{Author's Guide}
+%and the \textbf{.cls} and \textbf{.tex} files that it describes.
+
+%
+% The following two commands are all you need in the
+% initial runs of your .tex file to
+% produce the bibliography for the citations in your paper.
+
+
+%\bibliographystyle{IEEETrans}
+\bibliographystyle{etal}
+\bibliography{refs}  
+
+\end{document}

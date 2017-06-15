@@ -1,0 +1,87 @@
+\begin{thebibliography}{10}
+
+\bibitem{ARM}
+P.~Greenhalgh.
+\newblock big.little processing with arm cortex-a15 \& cortex-a7.
+\newblock {\em ARM Ltd.}, 2011.
+
+\bibitem{Fuks}
+A.~Fuks.
+\newblock Sensor-hub sweet-spot analysis for ultra-low-power always-on
+  operation.
+\newblock In {\em Symposium on VLSI Circuits}, June 2015.
+
+\bibitem{Gomez1}
+A.~Gomez, et~al.
+\newblock Reducing energy consumption in microcontroller-based platforms with
+  low design margin co-processors.
+\newblock In {\em Proc. DATE Conf.}, 2015.
+
+\bibitem{YDS}
+F.~Yao, et~al.
+\newblock A scheduling model for reduced cpu energy.
+\newblock In {\em Proc. Foundations of Computer Science}, pages 374--382, 1995.
+
+\bibitem{Aydin2001}
+H.~Aydin, et~al.
+\newblock Dynamic and aggressive scheduling techniques for power-aware
+  real-time systems.
+\newblock In {\em Proc. RTSS}, 2001.
+
+\bibitem{Chen2007}
+J.J. Chen, et~al.
+\newblock Energy-efficient real-time task scheduling in multiprocessor dvs
+  systems.
+\newblock In {\em Proc. ASP-DAC Conf.}, pages 342--349, 2007.
+
+\bibitem{Sarma2015}
+S.~Sarma, et~al.
+\newblock Smartbalance: A sensing-driven linux load balancer for energy
+  efficiency of heterogeneous mpsocs.
+\newblock In {\em Proc. DAC Conf.}, 2015.
+
+\bibitem{Kim2014}
+M.~Kim, et~al.
+\newblock Utilization-aware load balancing for the energy efficient operation
+  of the big.little processor.
+\newblock In {\em Proc. DATE Conf.}, 2014.
+
+\bibitem{Paterna}
+F.~Paterna, et~al.
+\newblock Variability-aware task allocation for energy-efficient quality of
+  service provisioning in embedded streaming multimedia applications.
+\newblock {\em IEEE Trans. on Computers}, 61(7), 2012.
+
+\bibitem{Raghavan2012}
+A.~Raghavan, et~al.
+\newblock Computational sprinting.
+\newblock In {\em Proc. HPCA Conf.}, pages 1--12, 2012.
+
+\bibitem{Salehi2015}
+M.~Salehi et~al.
+\newblock {A Hardware Platform for Evaluating Low-Energy Multiprocessor
+  Embedded Systems Based on COTS Devices}.
+\newblock {\em IEEE Trans. on Ind. Electr.}, 62(2):1262--1269, 2015.
+
+\bibitem{mlpt}
+C.~Koulamas et~al.
+\newblock A modified lpt algorithm for the two uniform parallel machine
+  makespan minimization problem.
+\newblock {\em European Journal of Operational Research}, 196(1):61--68, 2009.
+
+\bibitem{uunifast}
+E.~Bini et~al.
+\newblock Measuring the performance of schedulability tests.
+\newblock {\em Real-Time Syst.}, 30(1-2), 2005.
+
+\bibitem{Pix4Flow}
+Pix4flow website.
+\newblock [accessed 15-No-2015], https://pixhawk.org/modules/px4flow.
+
+\bibitem{INS}
+J.O. Nilsson, et~al.
+\newblock Foot-mounted ins for everybody - an open-source embedded
+  implementation.
+\newblock In {\em Proc. PLANS.}, 2012.
+
+\end{thebibliography}

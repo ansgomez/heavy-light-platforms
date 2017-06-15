@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2015/W32TeX)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: ASPDAC.aux
+The style file: etal.bst
+Database file #1: refs.bib
+You've used 15 entries,
+            1814 wiz_defined-function locations,
+            537 strings with 6015 characters,
+and the built_in function-call counts, 3160 in all, are:
+= -- 265
+> -- 117
+< -- 3
++ -- 53
+- -- 26
+* -- 139
+:= -- 477
+add.period$ -- 44
+call.type$ -- 15
+change.case$ -- 15
+chr.to.int$ -- 0
+cite$ -- 15
+duplicate$ -- 178
+empty$ -- 370
+format.name$ -- 26
+if$ -- 757
+int.to.chr$ -- 0
+int.to.str$ -- 15
+missing$ -- 14
+newline$ -- 77
+num.names$ -- 14
+pop$ -- 76
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 95
+stack$ -- 0
+substring$ -- 121
+swap$ -- 47
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 24
+width$ -- 17
+write$ -- 156

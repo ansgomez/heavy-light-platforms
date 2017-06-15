@@ -1,0 +1,46 @@
+\begin{table}[t]
+\caption{Notations used in this paper}
+\label{table:notation}
+\centering
+\noindent\begin{tabular}{|c|c|}
+\hline 
+HC & Heavy Core \\ 
+\hline 
+LC & Light Core \\ 
+\hline 
+Sys & System/Peripheral \\ 
+\hline 
+Makespan & Total length of a schedule \\ 
+\hline  
+$C_\mathrm{Lg}$ & Computation cycles of large task\\ 
+\hline 
+$C_\mathrm{Sm}$ & Computation cycles of small task\\ 
+\hline 
+$C_\mathrm{mean}$ & Mean Computation cycles $= (C_\mathrm{Lg}+C_\mathrm{Sm})/2$  \\ 
+\hline  
+\multirow{2}{*}{$\Delta$}& \footnotesize Deviation of computation cycles from mean value\\ &\footnotesize$C_\mathrm{Lg}=C_\mathrm{mean}\times(1+\Delta)$, $C_\mathrm{Sm}=C_\mathrm{mean}\times(1-\Delta)$\\
+\hline
+$E_X$ & \footnotesize Energy of $X$ where $X\in \{\mathrm{HC},\mathrm{LC}, \mathrm{Sys}\}$ \\ 
+\hline
+$P_{A, S}$ & \footnotesize Active power of $X$ where $X\in \{\mathrm{HC},\mathrm{LC}, \mathrm{Sys}\}$\\ 
+\hline 
+$P_{S, X}$ & \footnotesize Sleep power of $X$ where $X\in \{\mathrm{HC},\mathrm{LC}, \mathrm{Sys}\}$ \\ 
+\hline
+$P_{\Delta,X}$& $P_{A, X}-P_{S, X}$ where $X\in \{\mathrm{HC},\mathrm{LC}, \mathrm{Sys}\}$\\
+\hline  
+D & Period of the application \\ 
+\hline 
+\multirow{2}{*}{$A_{X}$} & \footnotesize Active time of $X$ where $X\in \{\mathrm{HC},\mathrm{LC}, \mathrm{Sys}\}$.\\& (Note: Sleep time $= D-A_{X}$) \\ 
+\hline
+$F_{X}$ & Frequency of core $X$ where $X\in\{\mathrm{HC, LC}\}$ \\ 
+\hline
+$F_{S}$ & $F_{\mathrm{HC}} + F_{\mathrm{LC}}$ \\
+\hline
+$F_{D}$ & $F_{\mathrm{HC}} - F_{\mathrm{LC}}$ \\
+\hline
+\multirow{2}{*}{$T_{X,Y}$} & Computation time of task $X\in\{\mathrm{Lg, Sm}\}$\\& on core $Y\in\{\mathrm{HC, LC}\}$ \\ 
+\hline
+$E_\mathrm{Total}$ & Total energy Consumption \\ 
+\hline
+\end{tabular} 
+\end{table}

@@ -1,0 +1,27 @@
+Optimizing an embedded system's energy and performance have been goals pursued by system designers for decades. Several different architectures have been proposed, followed by works focused on the allocation, mapping and scheduling necessary to minimize an application's energy and/or makespan. Whether these multi-core platforms have one or more ISA's, and microarchitectures ($\mu $arch) can have a great impact on the applicable task allocation policies, and ultimately in their energy and performance. 
+%We classify existing task allocation that work in the following heterogeneous scenarios:
+
+%\subsubsection*{Single-ISA, Multi-$\mu $Arch}
+%More commonly known as the big.LITTLE platforms, they are dominant in the high-performance MPSoC domain. 
+%It consists of multiple clusters with different microarchitectures, designed either for performance or low power consumption.
+Many researchers have focused on developing scheduling and task migration and load balancing techniques to minimize the total energy consumption in big.LITTLE systems. In \cite{Kim2014, Sarma2015}, for example, thread-level parallelism and CPU utilization patterns are exploited in a feedback optimization loop. Due to the large number of application threads, these systems can make efficient use of up to 16 cores [citation needed]. For less demanding applications, the area, cost and energy overhead of using this architecture are intolerable.
+
+%\subsubsection*{Multi-ISA, Multi-$\mu $Arch}
+In the MCU domain, heterogeneous dual-core architectures such as\cite{LPCXpresso54102} have recently been introduced. The platform includes a powerful ARM Cortex-M4F processor core and a more energy-efficient ARM Cortex-M0+ coprocessor. These architectures exhibit highest energy savings when different tasks make best use of the different ISA's \cite{Fuks}. However, it is the programmer's responsibility to determine the application's static mapping, which is not trivial. Unfortunately, if a task set's minimal energy is obtained using a single ISA, this would also incur significant area, cost and energy penalties. \par
+%There is suprisingly little literature regarding this architecture on the general purpose MCU domain. \par
+%One the biggest limitations of these platforms is that the tasks have to be (statically) allocated at design time, since processors have different ISA's, and it is not possible to implement complex feedback allocation policies, due to their limited performance.
+
+%\subsubsection*{Single-ISA, Single-$\mu$Arch}
+
+%NVIDIA's project Kal-El processor introduced the Variable Symmetric Multiprocessing (vSMP) technology \cite{nvidia}. Kal-El processor consists of four Heavy cores and one Light core, which is called \emph{companion core}. The companion core is used mainly during standby mode, music and video playback, whereas the Heavy cores are used when performance is required. Compared to a dual-core platform, Kal-El processor shows considerable improvement both in performance and energy consumption.\par  
+Heavy-light architectures, first proposed in \cite{Gomez1}, consist of one Heavy core (HC) and one Light core (LC) with the same $mu$Arch, but with different power densities. %As opposed to traditional homogeneous platforms, they can introduce significant energy savings compared to a single-core, without requiring advanced hardware/software infrastructure
+Since both cores have the same microarchitecture, optimal mapping is greatly simplified, and could even be closely estimated online. Novel algorithms are necessary to make optimal use of the Heavy Light platform.
+%Moreover, the power density of the (reduced margin) LC processor is much lower than the power density of the HC and can be exploited to improve the power efficiency of the platform.
+In \cite{Gomez1}, the authors show that using task level parallelism and simple task allocation schemes can minimize an application's energy. However, the authors worked under the optimistic assumption that the LC does not have a performance penalty. A more realistic scenario includes one where the LC has a performance penalty.
+%In \cite{Gomez2}, the authors extended their study to include the case of heterogeneous frequencies. They derived policies which choose between \emph{serialization} and \emph{task parallelization}, depending on platform characteristics, and they evaluated these policies both for homogeneous and heterogeneous frequencies. The results showed energy savings ranging from 10 to 20\%, depending on the frequency of the LC core and the workload.
+%\section{Our Proposal and Semester Thesis Structure}
+
+This work proposes a novel task allocation scheme that optimizes and application's energy and makespan on a Heavy-Light platform. First, we propose a simplified task model and partitioning scheme which reduces the energy and makespan minimization to mapping problem. Depending on the task set's available parallelism, our proposed allocation policy are proven to be optimal for both objectives.
+ 
+%We support our policies by providing mathematical proofs and we validate the theoretical results by emulating the behavior of a Heavy-Light platform using the LPCXpresso54012, which features two heterogeneous cores. 
+%For the evaluation of our policies, we used both synthetic benchmarks and real-world applications and we noticed considerable improvement both in responsiveness and in energy consumption, even under relatively light workloads.\par

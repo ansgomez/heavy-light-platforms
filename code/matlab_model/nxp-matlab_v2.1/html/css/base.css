@@ -1,0 +1,96 @@
+/* CSS Base Document */
+
+body{
+	margin-left:80px;
+	margin-right:150px;
+	vertical-align:baseline;
+}
+		
+#images {
+    float:left;
+}
+        
+#images img {
+ 	/*padding:5px;*/
+	width:220px;
+	height:210px;
+}
+       
+#full {
+     /*float:left;*/ 
+     margin-left:435px;
+	 margin-right: 100px; 
+     /*width:40px;*/
+     height:500px;
+     background-size: 100% 100%; 
+	 width:60%;
+}
+        
+h3 {
+     margin-top: 10px;
+     margin-bottom: 10px;
+     color:#F7B60;
+}
+		
+h1 {
+	background-color:#F7B60;
+    color:#F7B60;
+}
+		
+p {
+	font-family: "Georgia";
+	font-size:30px;
+	font-weight:bold;
+    text-align:center; 	
+}
+		
+/*Dividers*/
+hr.style-two {
+			border: 0;
+			height: 1px;
+			background: #333;
+			background-image: -webkit-linear-gradient(left, #ccc, #333, #ccc); 
+			background-image:    -moz-linear-gradient(left, #ccc, #333, #ccc); 
+			background-image:     -ms-linear-gradient(left, #ccc, #333, #ccc); 
+			background-image:      -o-linear-gradient(left, #ccc, #333, #ccc); 
+}
+
+.selected {
+	background-color:YellowGreen;
+}
+        
+#caption {
+     float:right;
+     clear:left;
+}
+		
+		/* Tables borders and background color */
+table{
+	 border-collapse:collapse;
+	 width:100%;
+}
+table, td, th{
+	 border:2px solid black;
+	 text-align:center; 
+     vertical-align:middle
+}
+th{
+	background-color:#0B5685;
+	color:white;
+		}
+		
+/*Alternate Row Colors*/
+tr:nth-child(odd)		{ background-color:#ffffff; }
+tr:nth-child(even)		{ background-color:#E2F1FF; }
+tr:nth-child			{ border: none; }
+		
+img{
+	display:inline-block;
+	float: right;
+}
+
+/*header table*/
+
+table.table1 {border: none;}
+table.table1 tr {border: none;}
+table.table1 td {border: none;}
