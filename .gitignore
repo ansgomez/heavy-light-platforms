@@ -1,0 +1,13 @@
+# LaTeX build files
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+# Keil IDE user files and backups
+*.uvgui.*
+*.bak
+# OS files
+Thumbs.db
+.DS_Store

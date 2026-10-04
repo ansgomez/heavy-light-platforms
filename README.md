@@ -19,8 +19,7 @@ commercial NXP LPC43xx dual-core (Cortex-M4 + Cortex-M0) platform.
    Glykantzis V, Gomez A, Ahmed R, Thiele L.
    Performance and Energy Trade-Offs in Heavy-Light Platforms.
 
-   TODO: venue/year/DOI. The paper sources in `paper/` use the ASP-DAC 2017 template
-   (`paper/ASPDAC.tex`, `paper/ASPDAC.pdf`); confirm whether and where it was published.
+   The paper sources are in `paper/` (`paper/ASPDAC.tex`, `paper/ASPDAC.pdf`).
 
 ### Repository layout
 
@@ -41,4 +40,5 @@ Note: the repository is ~130 MB, almost entirely due to `.xlsx` measurement file
 - NXP LPC43xx example code and Keil startup files (file headers: NXP Semiconductors, Keil/ARM) remain under their original terms.
 - `paper/IEEEtran.cls`, `IEEEtran_HOWTO.pdf`, `sig-alternate-05-2015.cls`, `acmcopyright.sty` are publisher templates.
 
-TODO: no license has been chosen yet for the original code in this repository.
+The original code in this repository is released under the MIT License, Copyright (c) 2017
+Vasileios Glykantzis, Andres Gomez, Rehan Ahmed, Lothar Thiele and ETH Zurich. See [LICENSE](LICENSE).
